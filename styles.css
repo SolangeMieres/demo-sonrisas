@@ -78,3 +78,44 @@ body { background-color: var(--background); color: var(--text-main); overflow-x:
     .hero-actions { flex-direction: column; }
     .stats-bar { flex-direction: column; gap: 2rem; text-align: center; }
 }
+
+.img-main {
+    width: 100%;
+    height: auto;
+    border-radius: 20px; /* Para que quede moderno */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+
+.faq-section {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+details {
+    background: white;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    cursor: pointer;
+}
+
+summary {
+    font-weight: bold;
+    color: #2c3e50;
+    list-style: none;
+}
+
+details p {
+    margin-top: 10px;
+    color: #555;
+    line-height: 1.6;
+}
